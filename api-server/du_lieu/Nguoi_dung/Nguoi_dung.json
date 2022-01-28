@@ -1,0 +1,42 @@
+[
+    {
+        "Ma_so": "NV01",
+        "Ho_ten": "Nhân viên 01",
+        "Ten_dang_nhap": "NV01",
+        "Mat_khau": "NV01",
+        "Nhom_nguoi_dung": {
+            "Ma_so": "NVBH",
+            "Ten": "Nhân viên bán hàng"
+        }
+    },
+    {
+        "Ma_so": "NV02",
+        "Ho_ten": "Nhân viên 02",
+        "Ten_dang_nhap": "NV02",
+        "Mat_khau": "NV02",
+        "Nhom_nguoi_dung": {
+            "Ma_so": "NVBH",
+            "Ten": "Nhân viên bán hàng"
+        }
+    },
+    {
+        "Ma_so": "QL01",
+        "Ho_ten": "Quản lý 1",
+        "Ten_dang_nhap": "QL01",
+        "Mat_khau": "QL01",
+        "Nhom_nguoi_dung": {
+            "Ma_so": "QLBH",
+            "Ten": "Quản lý bán hàng"
+        }
+    },
+    {
+        "Ma_so": "QL02",
+        "Ho_ten": "Quản lý 2",
+        "Ten_dang_nhap": "QL02",
+        "Mat_khau": "QL02",
+        "Nhom_nguoi_dung": {
+            "Ma_so": "QLBH",
+            "Ten": "Quản lý bán hàng"
+        }
+    }
+]
