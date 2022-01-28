@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Thêm Thông Tin Sản Phẩm Mới</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-3">
+				<div style="margin-top: 20px"><img src="{{ url_for('static', filename='images/PET.png') }}"></div>
+			</div>
+			<div class="col-md-6">
+				<p>
+				<h1 style="color: #0000FF;"><strong>TRUNG TÂM TIN HỌC</strong></h1>
+				<div style="font-weight: bold; font-size: 20px; color: #0000FF">Mô hình - Công nghệ - Kỹ thuật</div>
+				</p>
+			</div>
+
+			<div class="col-md-3">
+				{{ ChuoiHTMLThongTinNguoiDung }}
+
+			</div>
+		</div>
+
+		<!-- HTML thêm sản phẩm -->
+
+		<div style="text-align: center; margin: 25px 0;;">
+			<h3> Thêm thông tin sản phẩm </h3>
+		</div>
+
+		<br> 
+		<section style="margin: 10px 50px 50px;">
+		{{ Chuoi_KQ }}
+		</section>
+
+		<form method="post", enctype="multipart/form-data">
+			<div class="form-group">
+				<label> Tên sản phẩm </label>
+				<input type="text" name="Ten" value="{{ Ten }}" class="form-control" placeholder=""
+					aria-describedby="helpId">
+			</div>
+
+			<div class="form-group">
+				<label> Đơn giá </label>
+				<input type="text" name="DonGia" value="{{ DonGia }}" class="form-control" placeholder=""
+					aria-describedby="helpId">
+			</div>
+
+			<div class="form-group">
+				<label> Mô tả </label>
+				<textarea class="form-control" name="MoTa" value="{{ MoTa }}" rows="3"> </textarea>
+			</div>
+
+			<div class="form-group">
+				<label> Danh Mục </label>
+				<select class="form-control" name="DanhMuc" value="{{ DanhMuc }}">
+					<option value="1"> Freeze </option>
+					<option value="2"> Cà phê </option>
+					<option value="3"> Trà </option>
+					<option value="4"> Bánh mì </option>
+					<option value="5"> Khác </option>
+				</select>
+			</div>
+
+			<div class="form-group">
+				<label> Hình ảnh </label>
+					<input type="file" name="file" class="form-control-file">
+			</div>
+
+			<button type="submit" style= " border-radius:5px; border: none ; padding: 15px 10px; background-color: rgb(65, 121, 240); color:white; margin-top: 20px;">
+			 Thêm sản phẩm 
+			</button>
+		</form>
+
+	</div>
+
+	
+	
+
+	
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>

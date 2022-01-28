@@ -1,0 +1,35 @@
+{
+    "Ma_so": 16,
+    "Ten": "Freeze Trà Xanh",
+    "Don_gia": 49000,
+    "Mo_ta": " Freeze trà xanh đá xay với matcha Nhật rất tốt cho sức khoẻ ",
+    "Hinh_anh": "freeze-tra-xanh.png",
+    "Danh_muc": {
+        "Ma_so": 1,
+        "Ten": "Freeze",
+        "Mo_ta": "Sảng khoái với thức uống đá xay phong cách Việt. Freeze là thức uống đá xay mát lạnh được pha chế từ cà phê Việt, trà xanh, sô cô la hay các loại trái cây đặc trưng của Việt Nam"
+    },
+    "Danh_sach_Phieu_nhap": [],
+    "Danh_sach_Phieu_ban": [
+        {
+            "Ngay": "07-12-2020",
+            "So_luong": 2,
+            "Don_gia": 49000,
+            "Thanh_tien": 98000,
+            "Nhan_vien": {
+                "Ma_so": "NV01",
+                "Ho_ten": "Nhân viên 01"
+            }
+        },
+        {
+            "Ngay": "07-12-2020",
+            "So_luong": 3,
+            "Don_gia": 49000,
+            "Thanh_tien": 147000,
+            "Nhan_vien": {
+                "Ma_so": "NV02",
+                "Ho_ten": "Nhân viên 02"
+            }
+        }
+    ]
+}
